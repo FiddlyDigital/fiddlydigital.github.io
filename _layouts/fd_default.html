@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  
+  {% include fd_head.html %}
+  
+  <body>
+    {% include fd_header.html %}    
+      
+    <div class="banner-img"></div>
+    
+    <div class="container">
+      <div class="bodycontent row">
+        
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          {{ content }}
+        </div>
+        
+        <div class="hidden-xs hidden-sm col-md-3 sidebar-wrapper">
+          {% include fd_sidebar.html %}
+        </div>
+        
+      </div>
+    </div>
+    
+    {% include fd_footer.html %} 
+      
+    {% include fd_scripts.html %}
+  </body>
+</html>

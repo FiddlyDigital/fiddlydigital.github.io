@@ -1,0 +1,99 @@
+body > .container,
+body > .container-fluid ,
+header .container,
+header .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+header {
+    height:50px;
+}
+
+    header .navbar{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+.navbar-inverse {
+    border: 0;
+    background: black url("../img/dark_geometric.png");  
+}
+
+    .navbar-inverse .navbar-toggle {
+        background-color: transparent !important;
+        border-color: #9d9d9d;
+        color: #9d9d9d;
+    }
+
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: transparent !important;
+        border-color: #ffffff;
+        color: #ffffff;
+    }
+
+.banner-img {
+    display: block;
+    height: 300px;
+    width: 100%;
+    background: url("../img/board-electronics-computer-data-processing-50711.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.page_title {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:0;
+    text-align: center;
+}
+
+.page_content {
+    padding: 15px;
+}
+
+.thumbnail{
+    padding:0;
+}
+    .thumbnail img {
+        width: 100%;
+    }
+
+.sidebar-wrapper {
+    margin-top: 30px; 
+    margin-left:-20px;
+}
+    .well.affix {
+        top: 70px;
+        max-width: 270px;
+    }
+
+    .sidebar-section {
+        margin: 10px 0px 10px 0px;
+        border-bottom: 1px solid #cccccc;
+        text-align:center;
+    }
+
+    .sidebar-wrapper .sidebar-section:last-of-type{
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+    
+    .links a,
+    .links a:hover,
+    .links a:visited,
+    .links a:active,
+    .links a:link {
+        font-size: 32px;
+        text-decoration: none;
+    }
+
+
+.categories li {
+    min-width: 120px;   
+}
+
+footer {
+    text-align: center;
+}

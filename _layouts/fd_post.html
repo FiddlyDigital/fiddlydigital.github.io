@@ -1,0 +1,26 @@
+---
+layout: fd_default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="page_title" itemprop="name headline">
+    <div class="wrapper">
+      <h2>Post - {{ page.title }}</h2>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      
+      {% if page.author %}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            {{ page.author }}
+          </span>
+        </span>
+      {% endif %}
+    </div>
+  </div>
+  
+  <div class="page_content" itemprop="articleBody">
+      {{ content }}
+  </div>
+</article>

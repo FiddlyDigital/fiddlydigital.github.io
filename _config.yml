@@ -1,0 +1,18 @@
+# 
+# If you change this file - restart the jekyll server
+# 
+
+# Site settings
+url: "http://fiddlydigital.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Site MetaData
+title: FiddlyDigital
+description: One man's journey of discovery in the Digital Realm
+  
+# Contact Details
+email: fiddlydigital@gmail.com
+
+# Build settings
+markdown: kramdown
+exclude: [bower.json, package.json, .bowerrc, .gitignore]

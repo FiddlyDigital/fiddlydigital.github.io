@@ -1,0 +1,80 @@
+---
+layout: fd_page
+title: 
+---
+<ul class="nav nav-pills categories">
+  <li data-type="all" role="presentation" class="active">
+    <a href="#" class="btn btn-default">
+      <i class="fa fa-files-o fa-2"></i>
+      <span>
+        All
+      </span>
+    </a>
+  </li>
+  
+  <li data-type="article" role="presentation" >
+    <a href="#article" class="btn btn-default">
+      <i class="fa fa-file-text-o fa-2"></i>
+      Articles
+    </a>
+  </li>
+  
+  <li data-type="video" role="presentation">
+    <a id="video" href="#video" class="btn btn-default">
+      <i class="fa fa-file-video-o fa-2"></i>
+      Videos
+    </a>
+  </li>
+  <li data-type="screencast" role="presentation">
+    <a href="#screencast" class="btn btn-default">
+      <i class="fa fa-file-code-o fa-2"></i>
+      ScreenCasts
+    </a>
+  </li>
+  
+  <li data-type="audio" role="presentation">
+    <a href="#audio" class="btn btn-default">
+      <i class="fa fa-file-audio-o fa-2"></i>
+      Audio/PodCasts
+    </a>
+  </li>
+</ul>
+
+<div id="posts">
+  {% for post in site.posts %}
+    <div class="col-xs-12 col-sm-6 post" data-category="{{post.category}}" style="padding:5px 5px 0 0;">
+      <div class="thumbnail">
+        <img src="{{ post.excerptimage }}" alt="placeholder">
+        
+        <div class="caption">
+          <div class="text-center">
+            <h4>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              
+              {% case post.category %}
+                {% when 'article' %}
+                <i class="fa fa-file-text-o pull-right"></i>
+                
+                {% when 'video' %}
+                <i class="fa fa-file-video-o pull-right"></i>
+                
+                {% when 'screencast' %}
+                <i class="fa fa-file-code-o pull-right"></i>
+                
+                {% when 'audio' %}
+                <i class="fa fa-file-audio-o pull-right"></i>
+                
+              {% endcase %}
+            </h4>
+          </div>  
+          
+          {{ post.excerpt }}
+          
+          <div class="text-right">
+            {{ post.date | date: "%b %-d, %Y" }}
+          </div>
+        </div>  
+      </div>
+    </div>
+  {% endfor %}
+</div>
