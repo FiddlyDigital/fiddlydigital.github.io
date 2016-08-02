@@ -24,3 +24,7 @@ layout: fd_default
       {{ content }}
   </div>
 </article>
+
+{% if site.disqus_shortname %}
+  {% include fd_disqus.html %}
+{% endif %}

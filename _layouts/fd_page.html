@@ -11,4 +11,6 @@ layout: fd_default
     {{ content }}
 </div>
 
-
+{% if site.disqus_shortname %}
+  {% include fd_disqus.html %}
+{% endif %}

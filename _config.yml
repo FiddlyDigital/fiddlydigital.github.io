@@ -3,7 +3,7 @@
 # 
 
 # Site settings
-url: "http://fiddlydigital.com" # the base hostname & protocol for your site
+url: "https://fiddlydigital.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Site MetaData
@@ -12,6 +12,7 @@ description: One man's journey of discovery in the Digital Realm
   
 # Contact Details
 email: fiddlydigital@gmail.com
+disqus_shortname : fiddlydigital
 
 # Build settings
 markdown: kramdown
