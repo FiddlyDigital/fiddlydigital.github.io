@@ -3,7 +3,7 @@ layout: fd_post
 title:  "Randomised Ambient Music System"
 date:   2016-10-11 00:00:00 +0000
 category: article
-excerptimage : http://placehold.it/600x270
+excerptimage : img/visualisation.png
 comments: true
 ---
 
