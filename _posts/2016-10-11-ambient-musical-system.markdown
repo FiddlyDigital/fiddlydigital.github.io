@@ -22,12 +22,13 @@ So, it was with great delight that I discovered the extremely enlightening post 
 Unfortunately it was a few months before I could actually follow through his tutorial (I did mention 'wedding' in the first paragraph!).
 
 Finally though, I managed to get around to it.
+You can find the source for my version [here][ambient-musical-system]
 
 
 * I made the following modifications:
 His example was in ES6, but I modified my version to be ES5. 
 I'm still working on learning the ES6 syntax and wouldn't be confident making all of the changes I'd like to make without have a 110% grasp of the syntax and subteleties.
-* I added totaly randomisation in terms of the chosen instrument, the amount of layers, and the layer length and delay.
+* I added total randomisation in terms of the chosen instrument, the amount of layers, and the layer length and delay.
 By this simple modification, we have an almost totally random system - each refresh will bring a new Musical experience and tone!
 * I added a simple Visualisation. This gives some visual context to the music being played, and also added a much need graphical element.
 * I (tried!) to convert it to the [UMD Module format][UMD-Module-Format].
@@ -60,7 +61,7 @@ The simplicity of this technique really made me smile - the Browser environment 
 I was familiar with how Reverb worked as an effect in the audio world, but it took a little bit of research do do it correctly in the musical system.
 
 The [Convolver Node][convolver-node] works like any other Web Audio node - you connect it in your series of nodes - leading your chain towards the AudioContext's Destination.
-However, the key differance with this specific is that you also need to provide it with a sample of impulse response - this is used to shape the convolution of the input audio and as such the 'shape' of the reverb!
+However, the key differance with this specific node is that you also need to provide it with a sample of 'impulse response' - this is used to shape the convolution of the input audio - effectively the 'shape' of the reverb!
 Nifty stuff!
 
 Again, the Fetch Api and Promises made this so unbelieveably easy:
@@ -132,7 +133,7 @@ Going forward, I'd like to add the following:
 * Control over number of layers
 * Control over instrument per layer
 * Eq / filtering, etc..
-* More Complex Visualisations. The current on is reather simple, and I'd like to add something more graphically impressive.
+* More Complex Visualisations. The current one is reather simple, and I'd like to add something more graphically impressive.
 * The ability to choose 'Moods' or musical 'flavors'. Currently the system is totally random, but I think the ability to have some choice in terms of Progressions types or perhaps particular scales (or scale combinations) would really bring it tot he next level in terms of creating  truly enjoyable ambient music.
 
 You can find the source for my version [here][ambient-musical-system]
