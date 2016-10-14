@@ -130,7 +130,7 @@ For example:
 * Getting the perfect Fourth (+5 half-steps)
 * Getting the Minor key equivalent of a Major Key (-3 half-steps)
 
-And with those three examples - we've effectively able to traverse forwards and backwards to the [Circle of Fifths][circle-of-fifths] =)
+And with those three examples - we've effectively able to traverse forwards and backwards through the [Circle of Fifths][circle-of-fifths]!
 
 ![Circle Of Fifths](/img/circle-of-fifths.png){:class="img-responsive"}
 
