@@ -3,7 +3,7 @@ layout: fd_post
 title:  "A quick trip through Modes"
 date:   2016-10-13 00:00:00 +0000
 category: article
-excerptimage : img/visualisation2.png
+excerptimage : img/circleOf5ths.png
 comments: true
 ---
 
