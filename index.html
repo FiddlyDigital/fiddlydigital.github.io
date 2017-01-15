@@ -2,43 +2,6 @@
 layout: fd_page
 title: Posts
 ---
-<ul class="nav nav-pills categories">
-  <li data-type="all" role="presentation" class="active">
-    <a href="#" class="btn btn-default">
-      <i class="fa fa-files-o fa-2"></i>
-      <span>
-        All
-      </span>
-    </a>
-  </li>
-  
-  <li data-type="article" role="presentation" >
-    <a href="#article" class="btn btn-default">
-      <i class="fa fa-file-text-o fa-2"></i>
-      Articles
-    </a>
-  </li>
-  
-  <li data-type="video" role="presentation">
-    <a id="video" href="#video" class="btn btn-default">
-      <i class="fa fa-file-video-o fa-2"></i>
-      Videos
-    </a>
-  </li>
-  <li data-type="screencast" role="presentation">
-    <a href="#screencast" class="btn btn-default">
-      <i class="fa fa-file-code-o fa-2"></i>
-      ScreenCasts
-    </a>
-  </li>
-  
-  <li data-type="audio" role="presentation">
-    <a href="#audio" class="btn btn-default">
-      <i class="fa fa-file-audio-o fa-2"></i>
-      Audio/PodCasts
-    </a>
-  </li>
-</ul>
 
 <div id="posts">
   {% for post in site.posts %}

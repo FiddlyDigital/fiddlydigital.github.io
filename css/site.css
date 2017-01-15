@@ -1,3 +1,21 @@
+body h1, 
+body h2, 
+body h3, 
+body h4, 
+body h5, 
+body h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color : #f86951;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Fjord One', serif;
+    font-size: 14px;
+    color: #002949;
+}
+
 body > .container,
 body > .container-fluid ,
 header .container,
@@ -8,6 +26,7 @@ header .container-fluid {
 
 header {
     height:50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
     header .navbar{
@@ -17,19 +36,32 @@ header {
 
 .navbar-inverse {
     border: 0;
-    background: black url("../img/dark_geometric.png");  
+    background-color: #002949;  
+    color: #ffffff !important;
 }
+
+    .navbar-brand {
+        color: #ffffff !important;
+    }
 
     .navbar-inverse .navbar-toggle {
         background-color: transparent !important;
-        border-color: #9d9d9d;
-        color: #9d9d9d;
     }
 
     .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
         background-color: transparent !important;
         border-color: #ffffff;
-        color: #ffffff;
+        color: #f86951 !important;
+    }
+    
+    .navbar-inverse li a {
+        color: #ffffff !important;            
+    }
+    
+    .navbar-inverse li a:hover,
+    .navbar-inverse li a:focus,
+    .navbar-inverse li a:active {
+        color: #f86951 !important;
     }
 
 .banner-img {
@@ -47,7 +79,12 @@ header {
     padding-right: 15px;
     margin:0;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+    .page-title .wrapper h2 {
+        color: #f86951 !important;
+    }
 
 .page_content {
     padding: 15px;
@@ -61,23 +98,40 @@ header {
     }
 
 .sidebar-wrapper {
-    margin-top: 30px; 
+    margin-top: 15px; 
     margin-left:-20px;
+    
+    padding-left: 40px;
+    padding-right: 0;
 }
-    .well.affix {
+    img {
+        display: block;
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .affix {
         top: 70px;
         max-width: 270px;
     }
 
     .sidebar-section {
-        margin: 10px 0px 10px 0px;
-        border-bottom: 1px solid #cccccc;
+        margin: 25px 0px 25px 0px;
         text-align:center;
+    }
+
+    .sidebar-wrapper .sidebar-section:first-of-type{
+        margin-top: 0;
     }
 
     .sidebar-wrapper .sidebar-section:last-of-type{
         margin-bottom: 0;
-        border-bottom: 0;
+    }
+    
+    .links {
+        background-color: #ffffff;
+        padding: 15px;
     }
     
     .links a,
@@ -85,15 +139,41 @@ header {
     .links a:visited,
     .links a:active,
     .links a:link {
+        color: #002949;
         font-size: 32px;
         text-decoration: none;
     }
 
 
-.categories li {
-    min-width: 120px;   
-}
+    .cat_links {
+        list-style: none;
+        text-align: left;
+        padding: 0;
+    }
+    
+        .cat_links a {
+            color: #002949;
+        }
+        
+    .donate-section p {
+        text-align: left;
+    }
+        
 
 footer {
     text-align: center;
+}
+
+
+.col-xs-12, 
+.col-sm-12, 
+.col-md-9 {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+}
+
+.post {
+     padding-top: 10px;
+     padding-left: 25px;
+     padding-right:25px;
 }
