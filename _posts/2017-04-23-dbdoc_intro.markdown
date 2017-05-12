@@ -8,7 +8,7 @@ comments: true
 ---
 
 Here's an explanation and quick demo of a new Tool I'm working on - DBDoc!
-It's a documentation tool for SQL Server Databases. Check out the video to learn more.
+Its a documentation tool for SQL Server Databases. Check out the video to learn more.
 
 Contact me if it's something that you are interested in seeing more of!
 
