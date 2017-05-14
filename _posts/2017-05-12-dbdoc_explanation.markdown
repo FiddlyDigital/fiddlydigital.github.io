@@ -3,7 +3,7 @@ layout: fd_post
 title:  "DBDoc Explanation"
 date:   2017-05-12 00:00:00 +0000
 category: article
-excerptimage : img/dbdoc.png
+excerptimage : img/dbdoc3.png
 comments: true
 ---
 
