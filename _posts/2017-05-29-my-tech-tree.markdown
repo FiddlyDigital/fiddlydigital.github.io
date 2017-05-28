@@ -7,7 +7,7 @@ excerptimage : img/cssblur.jpeg
 comments: true
 ---
 
-For a developer there is always new tools and techniques you need to familiarise yourself with. Here's a system to stay up to date and not get overwhelmed by the technological tide!
+For a developer there are always new tools and techniques you need to familiarise yourself with. Here's a system to stay up to date and not get overwhelmed by the technological tide!
 
 ### The "well-read" Programmer's Dilemma
 
