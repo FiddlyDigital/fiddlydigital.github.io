@@ -3,7 +3,7 @@ layout: fd_post
 title:  "My Tech Tree"
 date:   2017-05-28 00:00:00 +0000
 category: article
-excerptimage : img/cssblur.jpeg
+excerptimage : img/searchguy.jpg
 comments: true
 ---
 
@@ -176,7 +176,7 @@ While the tech I use may not be *exactly* cutting edge - they're all mature solu
 I can put my confidence in these technologies and I have more than enough familiarity in them to know where to apply each tool in the correct situation. 
 
 I regularly review tech blogs, news and subreddits to learn about / discuss new tools, so it's not often that I fall into ['Everything looks like a nail' syndrome][LawOftheInstrument]!
- 
+
 The Model I have above helps me zero-in on what new technologies are (and are not!) suitable to integrate into my skillset and what can help me solve the types of problems that I'm tasked with solving.
 
 ### Summary
