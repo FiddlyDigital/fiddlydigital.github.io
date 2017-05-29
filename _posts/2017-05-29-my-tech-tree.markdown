@@ -84,12 +84,12 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
 #### My Tech Tree:
 
 - Application Layers
-    - Structure Layer - HTML
+    - Structure Layer - *HTML*
         - [Standard Elements][HTMLElements]
         - [Meta Tags][MetaTags]
         - Script/Style/Image asset loading and loading control
 
-    - Styling Layer - CSS
+    - Styling Layer - *CSS*
         - Features
             - [Box Model][CSSBoxModel]
             - [Positioning][CSSPositioning]
@@ -98,7 +98,7 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
             - [Bootstrap][Bootstrap]
             - [Material Design / MDLite][MDLite]
 
-    - Behaviour Layer - Javascript
+    - Behaviour Layer - *Javascript*
         - Language
             - ES5
             - ES6
@@ -117,7 +117,7 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
             - [NPM][NPM] - for Build System Dependencies
             - [Yarn][Yarn] or [Bower][Bower] for Front-End Dependencies 
 
-    - Business Logic Layer - C#
+    - Business Logic Layer - *C#*
         - Language
             - C# 6.0
         - Features / Libraries
@@ -128,8 +128,10 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
             - [Entity Framework][EntityFramework]
             - [Breeze .Net][breezenet]
             - [MSMQ][MSMQ]
+            - [SQLServer Management Objects][SMO]
+            - [SQLServer Data Tools][SSDT]
 
-    - Data Persistence Layer - SQLServer
+    - Data Persistence Layer - *SQLServer*
         - Features
            - Stored Procedures
            - Functions
@@ -151,11 +153,16 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
                 - The one and only!
             - [DbDoc][DBDoc]
                 - Absolutely essential if you do *anything* with SQLServer!
+    - Web Servers
+        - [IIS][IIS]
     - Mobile Deployment Tools
         - [Cordova][Cordova]
             - Wraps my JS Front-Ends in Android/IOS Wrappers for Deployment to mobile Devices
     - Command Line
-        - Batch Files
+        - Windows Batch Files
+    - Source Control
+        - [GIT][GIT]
+        - [SVN / Subversion][SVN]
 
 #### Explanation
 
@@ -166,7 +173,7 @@ While the tech I use may not be exactly cutting edge - they're all mature soluti
 I can put my confidence in these technologies and I have more than enough familiarity in them to know where to apply each tool in the correct situation. 
 
 I regularly review tech blogs, news and subreddits to learn about / discuss new tools, so it's not often that I fall into ['Everything looks like a nail' syndrome][LawOftheInstrument]! 
-The Model I have above helps me zero-in on what new technologies are be suitable to integrated into my skillset and help me solve the types of problems that I'm tasked with solving.
+The Model I have above helps me zero-in on what new technologies are (and are not!) suitable to integrate into my skillset and what can help me solve the types of problems that I'm tasked with solving.
 
 ### Summary
 
@@ -199,10 +206,15 @@ Do you have any tips for learning new tools? let me know in the comments below!
 [EntityFramework]: https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx
 [breezenet]: http://breeze.github.io/doc-net/
 [MSMQ]: https://msdn.microsoft.com/en-us/library/ms711472(v=vs.85).aspx
+[SMO]: https://msdn.microsoft.com/en-us/library/ms162169(v=sql.105).aspx
+[SSDT]: https://msdn.microsoft.com/en-us/library/hh272686(v=vs.103).aspx
 [VSCode]: https://code.visualstudio.com/
 [Notepad++]: https://notepad-plus-plus.org/
 [VisualStudio]: https://www.visualstudio.com/
 [SMS]: https://docs.microsoft.com/en-us/sql/ssms/sql-server-management-studio-ssms
 [DBDoc]: https://www.patreon.com/fiddlydigital
+[IIS]: https://www.iis.net/
 [Cordova]: https://cordova.apache.org/
+[GIT]: https://git-scm.com/
+[SVN]: https://subversion.apache.org/
 [LawOftheInstrument]: https://en.wikipedia.org/wiki/Law_of_the_instrument
