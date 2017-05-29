@@ -110,6 +110,7 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
             - [ChartJS][ChartJS]
             - [D3][D3]
             - [DataTables][DataTables]
+            - [Bootstrap][Bootstrap]
         - Build Systems
             - [GulpJs][GulpJs]
             - [Webpack][WebPack]
@@ -127,6 +128,8 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
             - [OData][OData]
             - [Entity Framework][EntityFramework]
             - [Breeze .Net][breezenet]
+            - [Linq][Linq]
+            - [T4 Templates][T4]
             - [MSMQ][MSMQ]
             - [SQLServer Management Objects][SMO]
             - [SQLServer Data Tools][SSDT]
@@ -166,13 +169,14 @@ Hopefully it gives you a good insight into the type of work I do, and the tools 
 
 #### Explanation
 
-This isn't an exhaustive list - I certainly do much more than this! e.g. Salesforce/Apec Development, Web Sockets, WebAPI, use other JS Libs, etc..
+This isn't an exhaustive list - I certainly do much more than this! e.g. Salesforce VisualForce/Apex Development, WebRTC, WebAPI, Python, Other JS Libs, etc..
 However it does represent what I use the majority of the time.
 
-While the tech I use may not be exactly cutting edge - they're all mature solutions and have been battle-tested over many years. 
+While the tech I use may not be *exactly* cutting edge - they're all mature solutions and have been battle-tested over many years. 
 I can put my confidence in these technologies and I have more than enough familiarity in them to know where to apply each tool in the correct situation. 
 
-I regularly review tech blogs, news and subreddits to learn about / discuss new tools, so it's not often that I fall into ['Everything looks like a nail' syndrome][LawOftheInstrument]! 
+I regularly review tech blogs, news and subreddits to learn about / discuss new tools, so it's not often that I fall into ['Everything looks like a nail' syndrome][LawOftheInstrument]!
+ 
 The Model I have above helps me zero-in on what new technologies are (and are not!) suitable to integrate into my skillset and what can help me solve the types of problems that I'm tasked with solving.
 
 ### Summary
@@ -205,6 +209,8 @@ Do you have any tips for learning new tools? let me know in the comments below!
 [OData]: https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/
 [EntityFramework]: https://msdn.microsoft.com/en-us/library/aa937723(v=vs.113).aspx
 [breezenet]: http://breeze.github.io/doc-net/
+[T4]: https://msdn.microsoft.com/en-us/library/bb126445.aspx
+[Linq]: https://msdn.microsoft.com/en-us/library/bb308959.aspx
 [MSMQ]: https://msdn.microsoft.com/en-us/library/ms711472(v=vs.85).aspx
 [SMO]: https://msdn.microsoft.com/en-us/library/ms162169(v=sql.105).aspx
 [SSDT]: https://msdn.microsoft.com/en-us/library/hh272686(v=vs.103).aspx
