@@ -16,4 +16,4 @@ disqus_shortname : fiddlydigital
 
 # Build settings
 markdown: kramdown
-exclude: [bower.json, package.json, .bowerrc, .gitignore]
+exclude: [bower.json, package.json, .bowerrc, .gitignore, README.md]
