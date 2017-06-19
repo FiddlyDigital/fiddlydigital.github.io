@@ -4,7 +4,6 @@ title: DbDoc
 permalink: /DbDoc
 ---
 
-### DbDoc
 DbDoc is a Documentation Generation and Navigation Tool for SQLServer Databases.
 
 It's designed to act as a lightning-fast referance to develop for and against your Databases.
@@ -45,7 +44,6 @@ There's even a robust search and filter system that allows you to find absolutel
 ![DbDocSearchExample](/img/dbdoc2.png){:class="img-responsive"}
 
 ## HOW DO I GET MY HANDS ON IT?
-
 DbDoc is being actively developed. New features, tweaks and changes are happening almost daily!
 
 It's currently in Beta. 
