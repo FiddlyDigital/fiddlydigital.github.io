@@ -42,7 +42,13 @@ header {
 
     .navbar-brand {
         color: #ffffff !important;
+        padding: 8px;
     }
+
+    .navbar-brand img {
+        display: inline-block !important;
+    }
+
 
     .navbar-inverse .navbar-toggle {
         background-color: transparent !important;
