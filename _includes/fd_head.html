@@ -12,7 +12,7 @@
     {% endif %}
   </title>
   
-  <meta name="author" content="">
+  <meta name="author" content="FiddlyDigital / Phil">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="apple-touch-icon" sizes="57x57" href="{{ "img/icons/apple-icon-57x57.png" | prepend: site.baseurl }}">
@@ -36,9 +36,7 @@
   <meta name="msapplication-TileImage" content="{{ "img/icons/ms-icon-144x144.png" | prepend: site.baseurl }}">
   <meta name="theme-color" content="#ffffff">
 
-  <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
-  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/bulma.min.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/site.css" | prepend: site.baseurl }}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
