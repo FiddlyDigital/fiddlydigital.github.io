@@ -1,6 +1,6 @@
 ---
 layout: fd_post
-title:  "SVG Grig Guide Generation"
+title:  "SVG Grid Guide Generation"
 date:   2018-05-14 00:00:00 +0000
 category: article
 excerptimage : img/digitaktonline.png
@@ -98,7 +98,7 @@ That was it. We went from a distant dream to a functional prototype in a few sca
 
 In any normal story, that would be the end. A good tool was made, knowledge was discovered and used; gold stars and whisky all round...
 
-However this tool looks *BASIC*. It was supposed to help me get better at design; it's ironic that it looks so terible and unfinished.
+However this tool looks *BASIC*. It was supposed to help me get better at design; it's ironic that it looks so terrible and unfinished.
 
 Then it occurred to me:
 > Why not use it's output as the basis of a better-looking V2?
