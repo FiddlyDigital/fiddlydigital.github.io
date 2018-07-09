@@ -79,9 +79,8 @@ body.site h6 {
     }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .post {
