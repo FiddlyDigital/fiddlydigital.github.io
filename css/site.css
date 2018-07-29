@@ -79,8 +79,9 @@ body.site h6 {
     }
 
 img {
-    display: inline-block;
+    display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 .post {
@@ -95,9 +96,10 @@ img {
 
 
 body.site {
-    display: flex;
+    /* display: flex;
     min-height: 100vh;
-    flex-direction: column;
+    flex-direction: column; */
+    height:100%;
 }
 
 .content {

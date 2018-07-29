@@ -1,6 +1,6 @@
 ---
 layout: fd_post
-title:  "SVG Grid Guide Generation"
+title:  "SVG Grid Guide Generation - Iteration 1"
 date:   2018-05-14 00:00:00 +0000
 category: article
 excerptimage : img/digitaktonline.png
@@ -33,7 +33,7 @@ A bit of searching online revealed that there are a great many tools for creatin
 SVG is just XML. The internet / DOM is (mostly) just XML. Why not just use some javascript to take some parameters and generate an xml that's a desirable grid of guides?
 
 ## Requirements
-The requirements were quite simple:
+For Iteration 1 - The requirements were quite simple:
 
 Inputs:
 * height and width
@@ -99,10 +99,11 @@ That was it. We went from a distant dream to a functional prototype in a few sca
 In any normal story, that would be the end. A good tool was made, knowledge was discovered and used; gold stars and whisky all round...
 
 However this tool looks *BASIC*. It was supposed to help me get better at design; it's ironic that it looks so terrible and unfinished.
+It's worth bearing in mind it's the first iteration, and we hadn't even gotten to User-testing yet.
 
-Then it occurred to me:
-> Why not use it's output as the basis of a better-looking V2?
-
+The software development cycle is just that - a cyclical process.
+You take the feedback from each level and feed into into the next.
+Time to test with users, and then on to Iteration 2!
 Stay tuned!
 
 [digitakt]: https://www.elektron.se/products/digitakt/
