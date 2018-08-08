@@ -28,7 +28,4 @@ I've been fortunate enough to work across a large breadth of the Industry; from 
 Along the way I've worked on some absolutely amazing projects and learned from some *true* professionals.
 I hope to continue their trend of sharing Software tips and techniques so that other's can learn and go on to create great things.
 
-You can see more of what I'm up to on [Instagram][instagram] and [Github][github].
-
-[instagram]: https://www.instagram.com/fiddlydigital
-[github]: https://github.com/fiddlydigital
+You can see more of what I'm up to on <a href="https://www.instagram.com/fiddlydigital" target="_blank">Instagram</a> or <a href="https://github.com/fiddlydigital" target="_blank">Github</a>.

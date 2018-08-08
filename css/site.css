@@ -92,6 +92,7 @@ img {
 .container {
     background-color: white;
     padding: 15px;
+    min-height: calc(100vh - 120px);
 }
 
 
