@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="noindex" />
+
+    <title>Boroughlike</title>    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pwa/favicon-16x16.png">
+    <link rel="manifest" href="pwa/site.webmanifest">
+    <link rel="mask-icon" href="pwa/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="pwa/favicon.ico">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="pwa/mstile-144x144.png">
+    <meta name="msapplication-config" content="pwa/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/">
+    
+    <style>        
+        body {
+            background-color: black;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        canvas {
+            outline: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>    
+
+    <script type="module">
+        //import game from './src/game.js';
+        import game from './dist/boroughlike_0.1.1.min.js';
+        game.init();
+    </script>
+</body>
+
+</html>
