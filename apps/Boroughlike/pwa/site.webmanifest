@@ -22,7 +22,7 @@
 	"related_applications" : [],
 	"scope" : "/Boroughlike/",
 	"short_name" : "Boroughlike",
-	"start_url" : "https://fiddlydigital.github.io/apps/boroughlike/",
+	"start_url" : "https://fiddlydigital.github.io/apps/boroughlike/index.html",
 	"theme_color" : "transparent",
-    "url" : "https://fiddlydigital.github.io/apps/Boroughlike/"
+    "url" : "https://fiddlydigital.github.io/apps/Boroughlike/index.html"
 }
